@@ -4,6 +4,7 @@ package com.example.plac16_2;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar mToolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(mToolbar);
+        mToolbar.setOverflowIcon(ContextCompat.getDrawable(this, R.drawable.ic_baseline_menu_24));
 
 
     }
