@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         mToolbar.setOverflowIcon(ContextCompat.getDrawable(this, R.drawable.ic_baseline_menu_24));
 
 
+
+
     }
 
 
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
             case R.id.Praca: {
-                fragmentClass = Praca.class;
+                fragmentClass = MapFragment.class;
                 break;
             }
             case R.id.Opinie: {

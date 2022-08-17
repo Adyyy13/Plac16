@@ -21,16 +21,13 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container_view"
         android:name="com.example.plac16_2.StronaGlowna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout="@layout/fragment_strona_glowna" />
-
-
-
-
+        tools:layout="@layout/fragment_strona_glowna"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
