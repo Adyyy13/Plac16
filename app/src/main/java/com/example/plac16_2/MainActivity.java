@@ -53,16 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 fragmentClass = NaszeMenu.class;
                 break;
             }
-            case R.id.Galeria: {
-                fragmentClass = Galeria.class;
-                break;
-            }
-            case R.id.Praca: {
-                fragmentClass = MapFragment.class;
-                break;
-            }
-            case R.id.Opinie: {
-                fragmentClass = Opinie.class;
+            case R.id.Kontakt: {
+                fragmentClass = Kontakt.class;
                 break;
             }
             default:

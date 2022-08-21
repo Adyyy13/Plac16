@@ -13,18 +13,12 @@
         />
 
     <item
-        android:id="@+id/Galeria"
-        android:title="@string/galeria"
+        android:id="@+id/Kontakt"
+        android:title="@string/Kontakt"
         />
 
-    <item
-        android:id="@+id/Praca"
 
-        android:title="@string/Praca" />
-    <item
-        android:id="@+id/Opinie"
 
-        android:title="@string/Opinie" />
 
 
 
